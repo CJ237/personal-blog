@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    border-bottom: 8px solid black;
+}
+h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+button {
+    float:right;
+    margin: 3px;
+    width: 70px;
+    background-color: #292727;
+    color: antiquewhite;
+    border-radius: 7px;
+}
+
+a {  
+    color: #292727;
+}
+footer{
+    display: flex;
+    width: 100%;
+    margin-top: 3px;
+    height: 100px;
+}
+
+.foot {
+    justify-content: center;
+    align-items: center;
+    border-top: 8px solid black;
+    font-size: 15px;
+}
+li {
+    list-style-type: none;
+}
+.blog {
+    display:flex;
+    flex-direction: column;
+    width: 95%;
+    border: 5px solid black;
+    height: 150px;
+    margin: 10px;
+    margin-left: 50px;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+.title {
+    border-bottom: 5px solid black;
+    margin: 15px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+/* dark mode */
+.switch-dark{
+    background-color:#c51b1b;
+    color:whitesmoke;
+}
+.switch-dark .header {
+    border-bottom-color: whitesmoke;
+    background-color: #c51b1b;
+    color:whitesmoke;
+}
+.switch-dark button {
+    background-color: whitesmoke;
+    color:#c51b1b;
+    border: 3px solid #c51b1b;
+    padding: 2px;
+}
+
+.switch-dark button:hover{
+    background-color: lightcoral;
+    color: whitesmoke;
+}
+.switch-dark button:active{
+    background-color: rgb(150, 9, 9);
+}
+.switch-dark a {
+    color:#292727;
+}
+.switch-dark .blog {
+    border-color: whitesmoke;
+}
+.switch-dark .color{
+    background-color: #c51b1b;
+}
+.switch-dark {
+    background-color: #c51b1b;
+}
+.switch-dark .title{
+    border-bottom-color: whitesmoke;
+}
+.switch-dark .foot{
+    border-top-color:whitesmoke;
+    background-color: #c51b1b;
+    color:whitesmoke;
+}
+.switch-dark .foot a{
+    color:antiquewhite;
+}
+
+/*light mode */
+.switch-light{
+    background-color:whitesmoke;
+    color:#c51b1b;
+}
+.switch-light .header {
+    border-bottom-color:#c51b1b;
+    color:#c51b1b
+}
+.switch-light a {
+    color:#292727;
+    
+}
+.switch-light button{
+    color:whitesmoke;
+    background-color:#c51b1b;
+    border: 3px solid whitesmoke;
+    padding: 2px;
+}
+.switch-light button:hover{
+    background-color: red;
+}
+
+.switch-light button:active{
+    background-color: rgb(150, 9, 9);
+}
+.switch-light .blog {
+    border-color:#c51b1b;
+}
+.switch-light .title{
+    border-bottom-color:#c51b1b;
+    
+}
+.switch-light .foot{
+    border-top-color:#c51b1b;
+    color:#292727;
+}
+.switch-light .foot a{
+    color:#c51b1b
+}
