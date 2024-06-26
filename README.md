@@ -18,5 +18,5 @@ This is a blog called Door Dash Spot to enter whats on your mind
 ![image](https://github.com/CJ237/personal-blog/assets/79546904/0cd66442-e5e8-4a98-8cbb-a7c99f0de2b7)
 
 ## GitHub Pages
-
+https://cj237.github.io/personal-blog/
 
