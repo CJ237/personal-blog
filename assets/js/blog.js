@@ -15,7 +15,7 @@ function getStored(){
 
 // function to open form in index.html
 function openForm() {
-    window.open('../assets/index.html', '_top');
+    window.open('./index.html', '_top');
 }
 
 // function to post onto blog

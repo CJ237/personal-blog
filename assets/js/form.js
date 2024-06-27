@@ -49,7 +49,7 @@ function storeUserInput() {
 
 // open blog.html function
 function openBlog() {
-    window.open('../assets/blog.html', '_top');
+    window.open('./blog.html', '_top');
 }
 
 //function get stored values from localstorage
